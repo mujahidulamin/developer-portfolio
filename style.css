@@ -8,7 +8,7 @@ h1{
     font-size: 50px;
 }
 h2{
-    font-size: 20px;
+    font-size: 40px;
 }
 .orange-color{
     color: orangered;
@@ -19,7 +19,6 @@ h2{
 .half-width{
     width: 70%;
     padding-left: 5%;
-    padding-right: 5%;
 }
 .half-width img{
     width: 100%;
@@ -45,4 +44,39 @@ h2{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    padding-bottom: 80px;
+    text-align: justify;
+
+
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 100px;
+}
+#full-stack-developer{
+    border-left: 7px solid orangered ;
+}
+
+#mern-stack-developer{
+    border-left: 7px solid blue ;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: gray;
+    font-size: 20px;
 }
